@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title> <!-- Title of the WebPage -->
+    <link rel="icon" href="./bf.jpg" /> <!-- Icon of WebPage -->
+    
+    <!-- Linking External CSS  -->
+    <link rel="stylesheet" href="./assi 1.css" />
+</head>
+<body>
+    <div class="webpage">
+        <div class="logobar">
+            <span class="logo">
+                e!
+            </span>
+            <span class="login">Login</span>
+            <span class="new">Create an account</span>
+        </div>
+        <div><!-- Heading of the Restaurant -->
+            <div class="heading">Breakfast Places in Mumbai</div>
+            <!-- Dividing the Page Layout in 2 parts with display property -->
+            <div style="padding-left: 15px;"><!-- Left Div : Filter Block -->
+                <div class="filter">
+                    <div class="title">
+                        <div class="header">
+                            Filters
+                        </div>
+                        <div class="Select-Location">
+                            Select Location
+                        </div>
+                        <!-- Location DD -->
+                        <select class="location">
+                            <option value="selectLocation">Select Location</option>
+                            <option value="bengaluru">Bengaluru</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="delhi">New Delhi</option>
+                            <option value="chennai">Chennai</option>
+                            <option value="hyderabad">Hyderabad</option>
+                            <option value="kolkata">Kolkata</option>
+                        </select>
+                        <!-- Cuisine Checkboxes -->
+                        <div class="Cuisine">
+                            Cuisine
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span class="checkbox-items">North Indian</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span class="checkbox-items">South Indian</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span class="checkbox-items">Chineese</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span class="checkbox-items">Fast Food</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <span class="checkbox-items">Street Food</span>
+                        </div>
+                        <!-- Cost for Two radio button options -->
+                        <div class="Cuisine">
+                            Cost For Two
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <span class="checkbox-items">Less than &#x20B9 500</span>
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <span class="checkbox-items">&#x20B9 500 to &#x20B9 1000</span>
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <span class="checkbox-items">&#x20B9 1000 to &#x20B9 1500</span>
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <span class="checkbox-items">&#x20B9 1500 to &#x20B9 2000</span>
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <span class="checkbox-items">&#x20B9 2000 +</span>
+                        </div>
+                        <!-- Sort radio button options -->
+                        <div class="Cuisine">
+                            Sort
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <span class="checkbox-items">Price low to high</span>
+                        </div>
+                        <div>
+                            <input type="radio" />
+                            <span class="checkbox-items">Price high to low</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Div : Items Block -->
+                <!-- vertical-align: top property to move div at the top -->
+                <div class="big vertical">
+                    <!-- Item Block -->
+                    <div class="Item">
+                        <div>
+                            <div class="small-item vertical">
+                                <img class="img" src="./breakfast.jpg" alt="no image"/>
+                            </div>
+                            <div class="big-item">
+                                <div class="rest-name">
+                                    The Big Chill Cakery
+                                </div>
+                                <div class="rest-location">
+                                    FORT
+                                </div>
+                                <div class="rest-address">
+                                    Shop 1, Plot D, Samruddhi Complex, Chincholi
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <div class="margin-left">
+                                <div class="Bakery">
+                                    CUISINES : Bakery
+                                </div>
+                                <div class="Bakery">
+                                    COST FOR TWO : &#x20B9 700 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item Block -->
+                    <div class="Item">
+                        <div>
+                            <div class="small-item vertical">
+                                <img class="img" src="./breakfast.jpg" alt="no image"/>
+                            </div>
+                            <div class="big-item">
+                                <div class="rest-name">
+                                    The Big Chill Cakery
+                                </div>
+                                <div class="rest-location">
+                                    FORT
+                                </div>
+                                <div class="rest-address">
+                                    Shop 1, Plot D, Samruddhi Complex, Chincholi
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <div class="margin-left">
+                                <div class="Bakery">
+                                    CUISINES : Bakery
+                                </div>
+                                <div class="Bakery">
+                                    COST FOR TWO : &#x20B9 700 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pagination Block  -->
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
